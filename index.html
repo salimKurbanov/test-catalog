@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/app/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>Enjoy your studying!</p>
+        <h1>Our online courses</h1>
+    </header>
+
+    <main class="container">
+        <div class="list_head">
+            <div class="categories">
+                <button data-filter="all">All</button>
+                <button data-filter="Marketing">Marketing</button>
+                <button data-filter="Management">Management</button>
+                <button data-filter="HR">HR & Recruiting</button>
+                <button data-filter="Design">Design</button>
+                <button data-filter="Development">Development</button>
+            </div>
+
+            <div class="search">
+                <input type="text" id="searchInput" placeholder="Search course..." />
+            </div>
+        </div>
+
+        <div class="list" id="courseGrid"></div>
+    </main>
+    
+</body>
+</html>
